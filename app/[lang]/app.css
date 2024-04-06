@@ -1,0 +1,29 @@
+:root {
+	--color-white: #fff;
+}
+html,body {margin: 0;padding: 0;}
+.site_header {
+    background-color: red;;
+}
+
+#hero {
+    background-image: url('../../public/banner-bg.jpg');
+    background-size: cover;
+}
+#hero .container {
+	min-height: 646px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#hero .hero-left {
+	padding: 247px 112px 219px 130px;
+	background: rgba(27, 69, 126, 0.8);
+}
+#hero h1 {
+	color: var(--color-white);
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 100%;
+	letter-spacing: 2px;
+	margin: 0;
+}

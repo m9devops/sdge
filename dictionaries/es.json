@@ -5,5 +5,8 @@
   "counter": {
     "increment": "Přidat",
     "decrement": "Ubrat"
+  },
+  "banner": {
+      "banner_title": "Mejorar la asequibilidad y la transparencia en sus facturas de servicios públicos"
   }
 }
